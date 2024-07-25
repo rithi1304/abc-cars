@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 70px;
+}
+
+.topnav a.link {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 23px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.link:hover {
+  background-color:  black;
+  color: white;
+}
+
+.btn {
+	background-color: rgb(70, 102, 243);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 30px;
+}
+
+.btn:hover {
+	color: rgb(70, 102, 243);
+	backgorund-color: white;
+}
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  color: white;
+}
+
+.topnav a.img {
+  float: right;
+  padding-top: 0px;
+}
+
+.profile img {
+    width: 55px; /* Set the width of the profile picture */ /* Set the height of the profile picture */
+    border-radius: 50%;
+     /* Create a circular border */
+       padding-top: 5px;
+  }
+  
+  /* Style the user's name */
+  .profile {
+    color: #fff; 
+    text-decoration: none; 
+    
+    margin-left: 10px;
+    cursor: pointer; 
+  }
+  
+  .profile:hover {
+	  text-decoration: none;
+	  color: #fff;
+
+  }

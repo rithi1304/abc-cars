@@ -1,0 +1,77 @@
+/* ===============================
+    Header or Hero Section Styling
+    ============================== */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@600&display=swap');
+.header {
+  background-color: var(--bg-color);
+  font-family: 'Poppins';
+  margin-top: 20px;
+}
+
+.header-container {
+  justify-content: space-between;
+   display: flex;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1;
+  /* align-items: flex-start; */
+  gap: calc(1vw + 0.4rem);
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.header-left h4 {
+  margin-bottom: 0px;
+}
+
+.header-left p {
+  width: 75%;
+}
+
+.header-left a {
+  margin-top: 20px;
+}
+
+.header-right {
+  flex: 1;
+}
+
+.header-right img {
+  
+  width: min(658px, 100%);
+}
+
+.header .btn {
+	padding: 15px;
+	font-size: 15px;
+	border-radius: 22px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ====================
+    Responsive Section
+    =================== */
+@media screen and (max-width: 950px) {
+  .header-container {
+    flex-direction: column;
+  }
+
+  .header-left {
+    width: 90%;
+    margin-inline: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-left p,
+  .header-right,
+  .header-right img {
+    width: 100%;
+  }
+
+  .header-right img {
+    margin-top: 7vw;
+  }
+}
